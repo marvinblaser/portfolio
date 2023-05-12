@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <video autoplay muted loop id="background-body">
+        <source src="img/background.mp4" type="video/mp4">
+    </video>
+    <div class="gradient-background-body"></div>
+    <header>
+        <nav>
+            <ul>
+                <li id="header-home"><span class="actif">Accueil</span></li>
+                <li id="header-aboutme"><span>À propos</span></li>
+                <a href="projets.html" id="header-projects">
+                    <li><span>Projets</span></li>
+                </a>
+                <li id="header-contact"><span>Contact</span></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="welcome-text">Bienvenue sur mon Portfolio.</h1>
+    <div class="scroll-down">
+        <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 24 24" fill="none"
+            stroke="#ddd1c7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M7 13l5 5 5-5M7 6l5 5 5-5" />
+        </svg>
+    </div>
+    <main>
+        <div class="card-aboutme-container">
+            <span id="aboutme-categorie" class="categorie-text">
+                À propos de moi...
+            </span>
+            <div class="card-aboutme">
+                <div class="card-aboutme-text">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id dicta nisi laudantium, quibusdam
+                        molestiae necessitatibus iusto, atque minus consectetur quod velit odio quo ratione culpa fugiat
+                        nihil quidem commodi itaque?</p>
+                </div>
+                <div class="card-aboutme-img">
+                    <img src="img/aboutme-img.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card-informations">
+                <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 24 24" fill="#ddd1c7"
+                    stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z" />
+                    <path d="M14 3v5h5M16 13H8M16 17H8M10 9H8" />
+                </svg>
+                <a href="">
+                    <button class="cv-button">CV</button>
+                </a>
+            </div>
+            <div class="card-informations">
+                <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 24 24" fill="#000000">
+                    <path
+                        d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.27 20.1H3.65V9.24h3.62V20.1zM5.47 7.76h-.03c-1.22 0-2-.83-2-1.87 0-1.06.8-1.87 2.05-1.87 1.24 0 2 .8 2.02 1.87 0 1.04-.78 1.87-2.05 1.87zM20.34 20.1h-3.63v-5.8c0-1.45-.52-2.45-1.83-2.45-1 0-1.6.67-1.87 1.32-.1.23-.11.55-.11.88v6.05H9.28s.05-9.82 0-10.84h3.63v1.54a3.6 3.6 0 0 1 3.26-1.8c2.39 0 4.18 1.56 4.18 4.89v6.21z" />
+                </svg>
+                <a href="">
+                    <button class="cv-button">LinkedIn</button>
+                </a>
+            </div>
+            <div class="card-informations">
+                <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 24 24" fill="#000000">
+                    <path
+                        d="M23.76 9.58A11.99 11.99 0 0 0 0 12a12.08 12.08 0 0 0 3.51 8.49 12.12 12.12 0 0 0 6.07 3.27A11.99 11.99 0 0 0 24 12a12 12 0 0 0-.24-2.42zm-1.51 2.32c-.15-.03-3.62-.78-7.14-.34a38.64 38.64 0 0 0-.9-2.01c4.04-1.66 5.69-4.03 5.7-4.06a10.2 10.2 0 0 1 2.34 6.4zm-3.48-7.6c-.03.05-1.49 2.27-5.35 3.72a52.06 52.06 0 0 0-3.83-5.98 10.23 10.23 0 0 1 9.18 2.27zM7.63 2.74a61.6 61.6 0 0 1 3.8 5.9A37.91 37.91 0 0 1 1.97 9.9c.67-3.18 2.8-5.8 5.66-7.16zM1.75 12l.01-.32c.18 0 5.25.11 10.52-1.46.3.57.58 1.15.83 1.74l-.4.12c-5.53 1.79-8.34 6.76-8.34 6.76A10.21 10.21 0 0 1 1.76 12zM12 22.25a10.2 10.2 0 0 1-6.53-2.35l.23.18s1.97-4.29 8.04-6.4l.07-.02a42.64 42.64 0 0 1 2.2 7.78 10.2 10.2 0 0 1-4.01.8zm5.73-1.75c-.1-.62-.65-3.63-2-7.32 3.31-.53 6.18.38 6.39.45a10.26 10.26 0 0 1-4.4 6.87z" />
+                </svg>
+                <a href="">
+                    <button class="cv-button">Dribbble</button>
+                </a>
+            </div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-form">
+                <span id="contact-categorie" class="categorie-text">
+                    Contact
+                </span>
+                <form action="https://formsubmit.co/marvinblaser.pro@gmail.com" method="POST" id="form">
+                    <div class="categorie-form">
+                        <span class="informations-perso-text">Informations personnelles</span>
+                        <div class="informations-perso">
+                            <div class="input-example">
+                                <input type="text" name="nom" class="filter" id="nom-input" autocomplete="off" required>
+                                <div class="label-input">
+                                    <span class="placeholder">Nom</span>
+                                    <span class="red-x">*</span>
+                                </div>
+                            </div>
+                            <div class="input-example">
+                                <input type="text" name="prenom" class="filter" id="prenom-input" autocomplete="off"
+                                    required>
+                                <div class="label-input">
+                                    <span class="placeholder">Prénom</span>
+                                    <span class="red-x">*</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-example second-line-info">
+                            <input type="email" name="email" class="filter" id="email-input" autocomplete="off"
+                                required>
+                            <div class="label-input">
+                                <span class="placeholder">Email</span>
+                                <span class="red-x">*</span>
+                            </div>
+                        </div>
+                        <div class="message-container">
+                            <span class="informations-perso-text">Message</span>
+                            <div class="input-example">
+                                <textarea name="message" class="filter" id="message" required></textarea>
+                                <div class="label-input">
+                                    <span class="placeholder">Votre message</span>
+                                    <span class="red-x">*</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="submit-form-container">
+                            <button type="submit" class="submit-form">Envoyer</button>
+                        </div>
+                    </div>
+                    <div class="form-post-scriptum">
+                        <span class="ps"><i>Tous les champs sont obligatoires.</i></span>
+                        <span class="ps"><i><span class="red-x-ps">*</span> : Champs obligatoires</i></span>
+                    </div>
+                    <input type="hidden" name="_subject" value="Portfolio review">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/thankyou.html">
+                    <input type="hidden" name="_cc" value="dpxkiramo@gmail.com">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_captcha" value="false">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-left">
+            <span>Réalisé par BLASER Marvin.</span>
+            <div class="separate-horizontal"></div>
+            <div class="footer-social-links">
+                <ul>
+                    <a href="">
+                        <li id="footer-linkedin">
+                            <svg id="footer-linkedin-svg" xmlns="http://www.w3.org/2000/svg" width="45" height="45"
+                                viewBox="0 0 24 24" fill="#d4b7d1">
+                                <path
+                                    d="M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zM8.951 9.404H6.165V17.5H8.95V9.404zm6.841-.192c-1.324 0-1.993.629-2.385 1.156l-.127.181V9.403h-2.786l.01.484c.006.636.007 1.748.005 2.93l-.015 4.683h2.786v-4.522c0-.242.018-.484.092-.657.202-.483.66-.984 1.43-.984.955 0 1.367.666 1.408 1.662l.003.168V17.5H19v-4.643c0-2.487-1.375-3.645-3.208-3.645zM7.576 5.5C6.623 5.5 6 6.105 6 6.899c0 .73.536 1.325 1.378 1.392l.18.006c.971 0 1.577-.621 1.577-1.398C9.116 6.105 8.53 5.5 7.576 5.5z" />
+                            </svg>
+                            <span id="footer-linkedin-span">LinkedIn</span>
+                        </li>
+                    </a>
+                    <a href="">
+                        <li id="footer-instagram">
+                            <svg id="footer-instagram-svg" xmlns="http://www.w3.org/2000/svg" width="45" height="45"
+                                viewBox="0 0 24 24" fill="#d4b7d1">
+                                <path
+                                    d="M12 0c6.6274 0 12 5.3726 12 12s-5.3726 12-12 12S0 18.6274 0 12 5.3726 0 12 0zm3.115 4.5h-6.23c-2.5536 0-4.281 1.6524-4.3805 4.1552L4.5 8.8851v6.1996c0 1.3004.4234 2.4193 1.2702 3.2359.7582.73 1.751 1.1212 2.8818 1.1734l.2633.006h6.1694c1.3004 0 2.389-.4234 3.1754-1.1794.762-.734 1.1817-1.7576 1.2343-2.948l.0056-.2577V8.8851c0-1.2702-.4234-2.3589-1.2097-3.1452-.7338-.762-1.7575-1.1817-2.9234-1.2343l-.252-.0056zM8.9152 5.8911h6.2299c.9072 0 1.6633.2722 2.2076.8166.4713.499.7647 1.1758.8103 1.9607l.0063.2167v6.2298c0 .9375-.3327 1.6936-.877 2.2077-.499.4713-1.176.7392-1.984.7806l-.2237.0057H8.9153c-.9072 0-1.6633-.2722-2.2076-.7863-.499-.499-.7693-1.1759-.8109-2.0073l-.0057-.2306V8.885c0-.9073.2722-1.6633.8166-2.2077.4712-.4713 1.1712-.7392 1.9834-.7806l.2242-.0057h6.2299-6.2299zM12 8.0988c-2.117 0-3.871 1.7238-3.871 3.871A3.8591 3.8591 0 0 0 12 15.8408c2.1472 0 3.871-1.7541 3.871-3.871 0-2.117-1.754-3.871-3.871-3.871zm0 1.3911c1.3609 0 2.4798 1.119 2.4798 2.4799 0 1.3608-1.119 2.4798-2.4798 2.4798-1.3609 0-2.4798-1.119-2.4798-2.4798 0-1.361 1.119-2.4799 2.4798-2.4799zm4.0222-2.3589a.877.877 0 1 0 0 1.754.877.877 0 0 0 0-1.754z" />
+                            </svg>
+                            <span id="footer-instagram-span">Instagram</span>
+                        </li>
+                    </a>
+                    <a href="">
+                        <li id="footer-twitter">
+                            <svg id="footer-twitter-svg" xmlns="http://www.w3.org/2000/svg" width="45" height="45"
+                                viewBox="0 0 24 24" fill="#d4b7d1">
+                                <path
+                                    d="M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zm3.193 7c-1.586 0-2.872 1.243-2.872 2.777 0 .217.025.43.074.633a8.251 8.251 0 0 1-5.92-2.902c-.247.41-.389.887-.389 1.397 0 .963.507 1.813 1.278 2.311a2.94 2.94 0 0 1-1.301-.348v.036c0 1.345.99 2.467 2.304 2.723a2.98 2.98 0 0 1-1.298.047c.366 1.103 1.427 1.906 2.683 1.928a5.889 5.889 0 0 1-3.567 1.19c-.231 0-.46-.014-.685-.04A8.332 8.332 0 0 0 9.903 18c5.283 0 8.172-4.231 8.172-7.901 0-.12-.002-.24-.008-.36A5.714 5.714 0 0 0 19.5 8.302a5.869 5.869 0 0 1-1.65.437 2.8 2.8 0 0 0 1.263-1.536 5.87 5.87 0 0 1-1.824.674A2.915 2.915 0 0 0 15.193 7z" />
+                            </svg>
+                            <span id="footer-twitter-span">Twitter</span>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-right">
+            <button id="feedback-button">Me faire un retour</button>
+            <span id="footer-tel">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="#d4b7d1"
+                    stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                    </path>
+                </svg>
+                06 31 77 97 01
+            </span>
+        </div>
+    </footer>
+    <div class="back-to-top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24" fill="none" stroke="#fdd8f9"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 15l-6-6-6 6" />
+        </svg>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
